@@ -30,8 +30,8 @@ xkb_symbols "real-prog-dvorak" {
     key <AD08> { [      c,             C          ]};
     key <AD09> { [      r,             R          ]};
     key <AD10> { [      l,             L          ]};
-    key <AD11> { [      slash,         asterisk   ]};
-    key <AD12> { [      minus,         asciicircum]};
+    key <AD11> { [      slash,         minus   ]};
+    key <AD12> { [      asterisk,         asciicircum]};
 
     key <AC01> { [      a,              A         ]};
     key <AC02> { [      o,              O         ]};
