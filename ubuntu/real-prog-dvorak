@@ -2,7 +2,6 @@
 
 partial alphanumeric_keys
 xkb_symbols "real-prog-dvorak" {
-
     name[Group1]= "English (Real Programmers Dvorak)";
 
     key <TLDE> { [      dollar,        underscore ]};
@@ -30,8 +29,8 @@ xkb_symbols "real-prog-dvorak" {
     key <AD08> { [      c,             C          ]};
     key <AD09> { [      r,             R          ]};
     key <AD10> { [      l,             L          ]};
-    key <AD11> { [      slash,         minus   ]};
-    key <AD12> { [      asterisk,         asciicircum]};
+    key <AD11> { [      slash,         asterisk   ]};
+    key <AD12> { [      minus,         asciicircum]};
 
     key <AC01> { [      a,              A         ]};
     key <AC02> { [      o,              O         ]};
@@ -55,6 +54,5 @@ xkb_symbols "real-prog-dvorak" {
     key <AB08> { [      w,               W        ]};
     key <AB09> { [      v,               V        ]};
     key <AB10> { [      z,               Z        ]};
-
     key <BKSL> { [  grave, numbersign             ]};
 };
